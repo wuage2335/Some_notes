@@ -10,7 +10,7 @@ Virtual Port Com 虚拟串口
 
 鉴于 RM 激烈的对抗场景, 寻常的使用 USB_TTL 的硬件串口方案肯定是行不通的, 在询问学长往届是如何处理 视觉与电控的信息收发后, 得到了通过虚拟串口发送的答案, 之后侯文辉先生又发了我一份他过往的详细虚拟串口配置经历, 但在实际使用的过程发现讲解仍然不够详细, 于是在其基础增加一点内容
 
-以下是侯文辉先生撰写的usb-cdc使用说明
+以下是pansy先生撰写的usb-cdc使用说明
 
 [‍⁡‬‍⁡‌⁣⁢﻿﻿⁢﻿⁢⁣⁤⁤‬⁣⁣⁤‬‍‍⁤⁢‍⁡⁢⁤⁢⁣⁤‍⁡‬‍‍﻿⁤‍⁢usb-cdc从实践到理论 - 飞书云文档 (feishu.cn)](https://bnmp7m19gb.feishu.cn/docx/doxcn6ULDgUxGFnjRaMpcqKviJY)
 
@@ -77,8 +77,8 @@ void USB_Reset(void)
   MX_USART2_UART_Init();
 ```
 
-测试后发现拉低电平可行
+测试后发现该方法可行
 
-除侯文辉先生在他的原博客中提到的引用文章外, 我也在这里放置几篇, 用于参考
+除Pansy先生在他的原博客中提到的引用文章外, 我也在这里放置几篇, 用于参考
 
 [STM32 USB 系列之 虚拟串口(VPC)_stm32 usb虚拟串口_非典型技术宅的博客-CSDN博客](https://blog.csdn.net/mirco_mcu/article/details/106081950)
