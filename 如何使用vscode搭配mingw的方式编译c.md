@@ -1,3 +1,5 @@
+author : wuage2335
+
 # 如何使用vscode搭配mingw的方式编译c
 
 首先去 微软商店获取  VSCode 
